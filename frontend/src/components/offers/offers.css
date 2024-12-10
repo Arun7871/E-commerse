@@ -1,0 +1,40 @@
+.offer{
+    height:70vh;
+    width:80%;
+    display:flex;
+    margin:auto;
+    padding : 0px 140px;
+    background:linear-gradient(180deg,#d577dc 0%,#e1ffea22 60%);
+    margin-top:20px;
+}
+
+.offer-left{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer-left button{
+    width:282px;
+    height:70px;
+    border-radius: 35px;
+    background-color: #ff4141;
+    border:none;
+    padding:3px;
+    font-size:22px;
+    font-weight:500px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+.offer-right{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex:1;
+}
+.offer-right img {
+    width: 500px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+}

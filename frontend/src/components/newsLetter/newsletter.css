@@ -1,0 +1,41 @@
+.newsLetter{
+    margin-top:30px;
+    display:flex;
+    width:80%;
+    height:60vh;
+    flex-direction: column;
+    margin:auto;  
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:70px;
+    background:linear-gradient(180deg,#d577dc 0%,#e1ffea22 60%);
+    gap:30px;
+}
+
+.newsLetter div{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:730px;
+    background:white;
+    border:1px solid #e3e3e3;
+    height:70px;
+    border-radius:80px;
+}
+input{
+    width:500px;
+    margin-left:30px;
+    outline:none;
+    border:none;
+    font-size:16px;
+}
+.newsLetter button{
+    width:210px;
+    height:70px;
+    border-radius:80px;
+    background:black;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}

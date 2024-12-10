@@ -1,0 +1,19 @@
+img{
+    width:350px;
+}
+
+p{
+    margin:6px 0px;
+}
+.price{
+    display:flex;
+    font-size:18px;
+    gap:20px;
+}
+.item:hover{
+    transition:0.6s;
+    transform:scale(1.08);
+}
+#old{
+    text-decoration: line-through;
+}

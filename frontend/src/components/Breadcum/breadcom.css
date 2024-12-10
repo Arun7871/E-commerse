@@ -1,0 +1,13 @@
+.container2 img{
+    width:15px;
+    height:15px;
+}
+.container2{
+    padding:10px 0px;
+    display:flex;
+    align-items:center;
+    padding-left:80px;
+}
+.toBig{
+    font-size:18px;
+}
