@@ -1,0 +1,38 @@
+.sidebar{
+    max-width:350px;
+    width:100%;
+    background: white;
+    height:80vh;
+}
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:40px;
+}
+.addproduct-btn{
+    cursor:pointer;
+    background:rgb(239, 236, 236);
+    width:270px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.productlist-btn{
+    cursor:pointer;
+    background:rgb(239, 236, 236);
+    width:270px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar p{
+    margin-left:18px;
+    font-size:18px;
+}
+.productlist-btn img{
+    width:25px;
+    height:25px;
+}

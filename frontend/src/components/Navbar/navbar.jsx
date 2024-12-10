@@ -20,7 +20,14 @@ export const Navbar = () => {
             <li onClick={()=> setStatus('kids')}><Link style={{ textDecoration :'none' }} to="/kids" >Kids</Link>{(status === 'kids') ? <hr /> : null}</li>
         </ul>
         <div className="login">
+            {localStorage.getItem('auth-token')?
+            <button onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}>Logout</button>:
             <button onClick={()=> setStatus('login')}><Link style={{ textDecoration :'none',color:'white' }} to="/login" >Login</Link></button>
+            }
+
+
+
+            
             <Link style={{ textDecoration :'none' }} to="/cart" >
             <img src={cart} onClick={()=> setStatus('cart')}></img>
             </Link>
